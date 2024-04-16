@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(254, 238, 200);
+}
+p{
+    color: black;
+}
+:root{
+    --lila: rgb(100, 101, 86);
+    --bela: rgb(255, 255, 255);
+}
+nav.bg-dark{
+    background-color: var(--lila) !important;
+}
+h4{
+    color: var(--bela);
+    color: black;
+}
+h4::after {
+    display: block;
+    content: "";
+    height: 8px;
+    width: 160px;
+    background: var(--lila);
+    margin: 15px auto;
+}
+.section-1 p{
+    text-shadow: 2px 2px black;
+    color: black;
+}
+.section-1 h5{
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px black;
+    color: black;
+}
+.section-2{
+    color: var(--bela);
+}
+.section-2 img{
+    border-radius: 30px;
+    height: 450px; 
+    width: 450px;
+    margin-left: 260px;
+}
+.col-md-6 p{
+    margin-right: 240px;
+}
+.section-3 h5{
+    color: var(--bela);
+    color: black;
+}
+.section-3 p{
+    color: var(--bela);
+    color: black;
+}
+.section-3 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+.section-3 a{
+    margin-top: 5%;
+}
+.jumbotron{
+    background-image: linear-gradient(rgba(81,17,81,.5), rgba(81,17,81,.9)), url(pic/bts5.jpg) ;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    border-radius: 0;
+
+}
+.section-4 p{
+    color: black;
+}
+.section-5 p{
+    color: black;
+}
+.section-6 p{
+    color: black;
+}
+.section-7 p{
+    color: black;
+}
+.section-8 p{
+    color: black;
+}
+.section-9 p{
+    color: var(--bela);
+}
+.section-10 p{
+    color: var(--bela);
+}
+.fa-location-crosshairs{
+    font-size: 2.5em;
+    color: rgb(130, 23, 156);
+}
